@@ -1,0 +1,19 @@
+"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armproc.dll" 
+
+"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armJET.dll" 
+
+"E:\WorkSpace\MIMXRT1052\MIMXRT1052xxxxB\boards\EasyARM-RT1052-V1_0\littlefs_examples\littlefs_shell\iar\debug\littlefs_shell.out" 
+
+--plugin="D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armbat.dll" 
+
+--device_macro="D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\config\debugger\NXP\iMXRT.dmac" 
+
+--device_macro="D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\config\debugger\NXP\iMXRT_Trace.dmac" 
+
+--macro="E:\WorkSpace\MIMXRT1052\MIMXRT1052xxxxB\boards\EasyARM-RT1052-V1_0\littlefs_examples\littlefs_shell\iar/evkbimxrt1050.mac" 
+
+--flash_loader="D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\config\flashloader\NXP\FlashIMXRT1050_EVK_FlexSPI.board" 
+
+
+
+

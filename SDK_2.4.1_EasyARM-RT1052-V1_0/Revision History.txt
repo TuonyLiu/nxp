@@ -1,0 +1,53 @@
+update time : 2018/08/08
+Author      : YunFeng Zhang
+Description : 1.mod£ºmodified csi demo examples;
+                     2.add :  dsi_emwin_gui example£»
+                     3.add :  elcdif\mipi£»
+                     4.add :  bootloader_examples
+
+update time : 2018/07/30
+Author      : YunFeng Zhang
+Description : 1.update xip config ,add all spiflash cmd;
+
+update time : 2018/06/18
+Author      : YunFeng Zhang
+Description : 1.Rename SDK Board name to EasyARM-RT1052 V1.0;
+
+update time : 2018/05/10
+Author      : YunFeng Zhang
+Description : 1.Rename SDK Board name to C&D;
+              2.Add Boot from ISSI  flash use 4 wire;
+
+update time : 2018/01/05
+Author      : YunFeng Zhang
+Description : 1.Merge SDK to 20180111;
+
+
+update time : 2018/01/05
+Author      : YunFeng Zhang
+Description : 1.Update EasyARM_RT1052 Flash program FLM;
+              2.add "kCLOCK_Adc_5hc" in "s_adcClocks[]/ADC_CLOCKS" in fsl_adc.h line 114;
+              3.add "driver_examples\tsc" demo.
+              3.add demo which code running in sdram ".\driver_examples\gpio\led_output_nor_xip".
+
+
+update time : 2017/12/15
+Author      : YunFeng Zhang
+Description : 1.Add FSL_FEATURE_FLEXIO_HAS_PARALLEL_WIDTH feature;
+              2.Add .\driver_examples\lpspi\edma_b2b demo;
+              3.Add .\driver_examples\adc_etc\adc_etc_hardware_trigger_flexpwm demo;
+              4.Add .\tools\flash_flm\EasyARM_RT1052_MX25L6436F.FLM, 
+                SPI Flash download programming algorithm,copy it to ".\Keil_v5\ARM\Flash\" floder;
+              5.Add "boot_config" floder
+              6.Add .\driver_examples\gpio\led_output_nor_xip\igpio_led_output ; 
+                /* build firmware which can download in sd or nor */
+
+
+update time : 2017/11/25
+Author      : YunFeng Zhang
+Description : 1.update the SDK to sync nxp mcuxpresso(update 2017/11/16)
+              2.add kClockMux_Mqs in fsl_clock.h
+
+update time : 2017/11/25
+Author      : YunFeng Zhang
+Description : pack the first SDK vision Rev0 

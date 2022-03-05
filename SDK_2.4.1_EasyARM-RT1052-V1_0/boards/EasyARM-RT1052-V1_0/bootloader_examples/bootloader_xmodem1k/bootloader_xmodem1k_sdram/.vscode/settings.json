@@ -1,0 +1,7 @@
+{
+    "aliosStudio.sdkPath": "C:\\Users\\Damon\\.aos\\AliOS-Things",
+    "files.associations": {
+        "clock_config.h": "c",
+        "flexspi_nor.h": "c"
+    }
+}

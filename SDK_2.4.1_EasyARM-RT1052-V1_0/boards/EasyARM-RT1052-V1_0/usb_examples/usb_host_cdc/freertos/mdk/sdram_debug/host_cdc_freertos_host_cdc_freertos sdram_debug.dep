@@ -1,0 +1,994 @@
+Dependencies for Project 'host_cdc_freertos', Target 'host_cdc_freertos sdram_debug': (DO NOT MODIFY !)
+F (../usb_serial_port.h)(0x5B1612A6)()
+F (../usb_lpuart_drv.c)(0x5B1612A6)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\usb_lpuart_drv.o --omf_browse sdram_debug\usb_lpuart_drv.crf --depend sdram_debug\usb_lpuart_drv.d)
+I (../../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_lpuart.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../board.h)(0x5B1612A6)
+I (../clock_config.h)(0x5B1612A6)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_gpio.h)(0x5B34A990)
+I (../usb_serial_port.h)(0x5B1612A6)
+F (../readme.txt)(0x5B1612A6)()
+F (../app.h)(0x5B1612A6)()
+F (../app.c)(0x5B1612A6)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\app.o --omf_browse sdram_debug\app.crf --depend sdram_debug\app.d)
+I (../usb_host_config.h)(0x5B1612A6)
+I (../../../../../../middleware/usb/host/usb_host.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../../middleware/usb/osa/usb_osa.h)(0x5B34A990)
+I (../../../../../../middleware/usb/osa/usb_osa_freertos.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\FreeRTOSConfig.h)(0x5B1612A6)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/portable.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/semphr.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/queue.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/event_groups.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/timers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/task.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/list.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb_misc.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb_spec.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/usb_host_framework.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/class/usb_host_cdc.h)(0x5B34A990)
+I (../board.h)(0x5B1612A6)
+I (../clock_config.h)(0x5B1612A6)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_gpio.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/utilities/fsl_debug_console.h)(0x5B34A990)
+I (../usb_serial_port.h)(0x5B1612A6)
+I (../host_cdc.h)(0x5B1612A6)
+I (../app.h)(0x5B1612A6)
+I (../pin_mux.h)(0x5B1612A6)
+I (../../../../../../middleware/usb/phy/usb_phy.h)(0x5B34A990)
+F (../host_cdc.c)(0x5B1612A6)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\host_cdc.o --omf_browse sdram_debug\host_cdc.crf --depend sdram_debug\host_cdc.d)
+I (../usb_host_config.h)(0x5B1612A6)
+I (../../../../../../middleware/usb/host/usb_host.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../../middleware/usb/osa/usb_osa.h)(0x5B34A990)
+I (../../../../../../middleware/usb/osa/usb_osa_freertos.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\FreeRTOSConfig.h)(0x5B1612A6)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/portable.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/semphr.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/queue.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/event_groups.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/timers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/task.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/list.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb_misc.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb_spec.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/usb_host_framework.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/class/usb_host_cdc.h)(0x5B34A990)
+I (../host_cdc.h)(0x5B1612A6)
+I (../../../../../../devices/MIMXRT1052/utilities/fsl_debug_console.h)(0x5B34A990)
+I (../board.h)(0x5B1612A6)
+I (../clock_config.h)(0x5B1612A6)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_gpio.h)(0x5B34A990)
+I (../usb_serial_port.h)(0x5B1612A6)
+I (../app.h)(0x5B1612A6)
+F (../host_cdc.h)(0x5B1612A6)()
+F (../usb_host_config.h)(0x5B1612A6)()
+F (../FreeRTOSConfig.h)(0x5B1612A6)()
+F (../board.c)(0x5B1612A6)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\board.o --omf_browse sdram_debug\board.crf --depend sdram_debug\board.d)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/utilities/fsl_debug_console.h)(0x5B34A990)
+I (../board.h)(0x5B1612A6)
+I (../clock_config.h)(0x5B1612A6)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_gpio.h)(0x5B34A990)
+F (../board.h)(0x5B1612A6)()
+F (../clock_config.c)(0x5B1612A6)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\clock_config.o --omf_browse sdram_debug\clock_config.crf --depend sdram_debug\clock_config.d)
+I (../clock_config.h)(0x5B1612A6)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+F (../clock_config.h)(0x5B1612A6)()
+F (../pin_mux.c)(0x5B1612A6)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\pin_mux.o --omf_browse sdram_debug\pin_mux.crf --depend sdram_debug\pin_mux.d)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_iomuxc.h)(0x5B34A990)
+I (../pin_mux.h)(0x5B1612A6)
+F (../pin_mux.h)(0x5B1612A6)()
+F (../../../../../../middleware/usb/host/usb_host_ehci.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\usb_host_ehci.o --omf_browse sdram_debug\usb_host_ehci.crf --depend sdram_debug\usb_host_ehci.d)
+I (..\usb_host_config.h)(0x5B1612A6)
+I (../../../../../../middleware/usb/host/usb_host.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../../middleware/usb/osa/usb_osa.h)(0x5B34A990)
+I (../../../../../../middleware/usb/osa/usb_osa_freertos.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\FreeRTOSConfig.h)(0x5B1612A6)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/portable.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/semphr.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/queue.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/event_groups.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/timers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/task.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/list.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb_misc.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb_spec.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/usb_host_framework.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/usb_host_hci.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/usb_host_devices.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/usb_host_ehci.h)(0x5B34A990)
+I (../../../../../../middleware/usb/phy/usb_phy.h)(0x5B34A990)
+F (../../../../../../middleware/usb/host/usb_host_ehci.h)(0x5B34A990)()
+F (../../../../../../middleware/usb/host/usb_host.h)(0x5B34A990)()
+F (../../../../../../middleware/usb/host/usb_host_hci.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\usb_host_hci.o --omf_browse sdram_debug\usb_host_hci.crf --depend sdram_debug\usb_host_hci.d)
+I (..\usb_host_config.h)(0x5B1612A6)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/usb_host.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (../../../../../../middleware/usb/osa/usb_osa.h)(0x5B34A990)
+I (../../../../../../middleware/usb/osa/usb_osa_freertos.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\FreeRTOSConfig.h)(0x5B1612A6)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/portable.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/semphr.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/queue.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/event_groups.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/timers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/task.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/list.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb_misc.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb_spec.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/usb_host_framework.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/usb_host_hci.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/usb_host_devices.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/usb_host_ehci.h)(0x5B34A990)
+F (../../../../../../middleware/usb/host/usb_host_hci.h)(0x5B34A990)()
+F (../../../../../../middleware/usb/host/usb_host_devices.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\usb_host_devices.o --omf_browse sdram_debug\usb_host_devices.crf --depend sdram_debug\usb_host_devices.d)
+I (..\usb_host_config.h)(0x5B1612A6)
+I (../../../../../../middleware/usb/host/usb_host.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../../middleware/usb/osa/usb_osa.h)(0x5B34A990)
+I (../../../../../../middleware/usb/osa/usb_osa_freertos.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\FreeRTOSConfig.h)(0x5B1612A6)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/portable.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/semphr.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/queue.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/event_groups.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/timers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/task.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/list.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb_misc.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb_spec.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/usb_host_framework.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/usb_host_hci.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/usb_host_devices.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/class/usb_host_hub.h)(0x5B34A990)
+F (../../../../../../middleware/usb/host/usb_host_devices.h)(0x5B34A990)()
+F (../../../../../../middleware/usb/host/usb_host_framework.h)(0x5B34A990)()
+F (../../../../../../middleware/usb/host/usb_host_framework.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\usb_host_framework.o --omf_browse sdram_debug\usb_host_framework.crf --depend sdram_debug\usb_host_framework.d)
+I (..\usb_host_config.h)(0x5B1612A6)
+I (../../../../../../middleware/usb/host/usb_host.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../../middleware/usb/osa/usb_osa.h)(0x5B34A990)
+I (../../../../../../middleware/usb/osa/usb_osa_freertos.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\FreeRTOSConfig.h)(0x5B1612A6)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/portable.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/semphr.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/queue.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/event_groups.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/timers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/task.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/list.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb_misc.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb_spec.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/usb_host_framework.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/usb_host_hci.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/usb_host_devices.h)(0x5B34A990)
+F (../../../../../../middleware/usb/include/usb.h)(0x5B34A990)()
+F (../../../../../../middleware/usb/include/usb_misc.h)(0x5B34A990)()
+F (../../../../../../middleware/usb/include/usb_spec.h)(0x5B34A990)()
+F (../../../../../../middleware/usb/osa/usb_osa.h)(0x5B34A990)()
+F (../../../../../../middleware/usb/osa/usb_osa_freertos.h)(0x5B34A990)()
+F (../../../../../../middleware/usb/osa/usb_osa_freertos.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\usb_osa_freertos.o --omf_browse sdram_debug\usb_osa_freertos.crf --depend sdram_debug\usb_osa_freertos.d)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../../middleware/usb/include/usb.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../../middleware/usb/osa/usb_osa.h)(0x5B34A990)
+I (../../../../../../middleware/usb/osa/usb_osa_freertos.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\FreeRTOSConfig.h)(0x5B1612A6)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/portable.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/semphr.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/queue.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/event_groups.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/timers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/task.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/list.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb_misc.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb_spec.h)(0x5B34A990)
+F (../../../../../../middleware/usb/phy/usb_phy.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\usb_phy.o --omf_browse sdram_debug\usb_phy.crf --depend sdram_debug\usb_phy.d)
+I (../../../../../../middleware/usb/include/usb.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../../middleware/usb/osa/usb_osa.h)(0x5B34A990)
+I (../../../../../../middleware/usb/osa/usb_osa_freertos.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\FreeRTOSConfig.h)(0x5B1612A6)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/portable.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/semphr.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/queue.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/event_groups.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/timers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/task.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/list.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb_misc.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb_spec.h)(0x5B34A990)
+I (../../../../../../middleware/usb/phy/usb_phy.h)(0x5B34A990)
+F (../../../../../../middleware/usb/phy/usb_phy.h)(0x5B34A990)()
+F (../../../../../../devices/MIMXRT1052/drivers/fsl_cache.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\fsl_cache.o --omf_browse sdram_debug\fsl_cache.crf --depend sdram_debug\fsl_cache.d)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_cache.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+F (../../../../../../devices/MIMXRT1052/drivers/fsl_cache.h)(0x5B34A990)()
+F (../../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)()
+F (../../../../../../devices/MIMXRT1052/drivers/fsl_common.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\fsl_common.o --omf_browse sdram_debug\fsl_common.crf --depend sdram_debug\fsl_common.d)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+F (../../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)()
+F (../../../../../../devices/MIMXRT1052/drivers/fsl_clock.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\fsl_clock.o --omf_browse sdram_debug\fsl_clock.crf --depend sdram_debug\fsl_clock.d)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+F (../../../../../../devices/MIMXRT1052/drivers/fsl_lpuart.h)(0x5B34A990)()
+F (../../../../../../devices/MIMXRT1052/drivers/fsl_lpuart.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\fsl_lpuart.o --omf_browse sdram_debug\fsl_lpuart.crf --depend sdram_debug\fsl_lpuart.d)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_lpuart.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+F (../../../../../../devices/MIMXRT1052/drivers/fsl_iomuxc.h)(0x5B34A990)()
+F (../../../../../../devices/MIMXRT1052/drivers/fsl_gpio.h)(0x5B34A990)()
+F (../../../../../../devices/MIMXRT1052/drivers/fsl_gpio.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\fsl_gpio.o --omf_browse sdram_debug\fsl_gpio.crf --depend sdram_debug\fsl_gpio.d)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_gpio.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+F (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/MemMang/heap_4.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\heap_4.o --omf_browse sdram_debug\heap_4.crf --depend sdram_debug\heap_4.d)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\FreeRTOSConfig.h)(0x5B1612A6)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/portable.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/task.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/list.h)(0x5B34A990)
+F (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/readme.txt)(0x5B34A990)()
+F (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/port.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\port.o --omf_browse sdram_debug\port.crf --depend sdram_debug\port.d)
+I (../../../../../../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\FreeRTOSConfig.h)(0x5B1612A6)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/portable.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/task.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/list.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/fsl_tickless_generic.h)(0x5B34A990)
+F (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5B34A990)()
+F (../../../../../../rtos/amazon-freertos/LICENSE)(0x5B34A990)()
+F (../../../../../../rtos/amazon-freertos/lib/include/event_groups.h)(0x5B34A990)()
+F (../../../../../../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5B34A990)()
+F (../../../../../../rtos/amazon-freertos/lib/include/message_buffer.h)(0x5B34A990)()
+F (../../../../../../rtos/amazon-freertos/lib/include/queue.h)(0x5B34A990)()
+F (../../../../../../rtos/amazon-freertos/lib/include/semphr.h)(0x5B34A990)()
+F (../../../../../../rtos/amazon-freertos/lib/include/stream_buffer.h)(0x5B34A990)()
+F (../../../../../../rtos/amazon-freertos/lib/include/task.h)(0x5B34A990)()
+F (../../../../../../rtos/amazon-freertos/lib/include/timers.h)(0x5B34A990)()
+F (../../../../../../rtos/amazon-freertos/lib/include/freertos_tasks_c_additions.h)(0x5B34A990)()
+F (../../../../../../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5B34A990)()
+F (../../../../../../rtos/amazon-freertos/lib/include/private/list.h)(0x5B34A990)()
+F (../../../../../../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5B34A990)()
+F (../../../../../../rtos/amazon-freertos/lib/include/private/portable.h)(0x5B34A990)()
+F (../../../../../../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5B34A990)()
+F (../../../../../../rtos/amazon-freertos/lib/include/private/stack_macros.h)(0x5B34A990)()
+F (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/event_groups.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\event_groups.o --omf_browse sdram_debug\event_groups.crf --depend sdram_debug\event_groups.d)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\FreeRTOSConfig.h)(0x5B1612A6)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/portable.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/task.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/list.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/timers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/event_groups.h)(0x5B34A990)
+F (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/list.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\list.o --omf_browse sdram_debug\list.crf --depend sdram_debug\list.d)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\FreeRTOSConfig.h)(0x5B1612A6)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/portable.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/list.h)(0x5B34A990)
+F (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/queue.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\queue.o --omf_browse sdram_debug\queue.crf --depend sdram_debug\queue.d)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\FreeRTOSConfig.h)(0x5B1612A6)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/portable.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/task.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/list.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/queue.h)(0x5B34A990)
+F (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/stream_buffer.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\stream_buffer.o --omf_browse sdram_debug\stream_buffer.crf --depend sdram_debug\stream_buffer.d)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\FreeRTOSConfig.h)(0x5B1612A6)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/portable.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/task.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/list.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/stream_buffer.h)(0x5B34A990)
+F (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/tasks.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\tasks.o --omf_browse sdram_debug\tasks.crf --depend sdram_debug\tasks.d)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\FreeRTOSConfig.h)(0x5B1612A6)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/portable.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/task.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/list.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/timers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/stack_macros.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (../../../../../../rtos/amazon-freertos/lib/include/freertos_tasks_c_additions.h)(0x5B34A990)
+F (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/timers.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\timers.o --omf_browse sdram_debug\timers.crf --depend sdram_debug\timers.d)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\FreeRTOSConfig.h)(0x5B1612A6)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/portable.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/task.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/list.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/queue.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/timers.h)(0x5B34A990)
+F (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/fsl_tickless_systick.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\fsl_tickless_systick.o --omf_browse sdram_debug\fsl_tickless_systick.crf --depend sdram_debug\fsl_tickless_systick.d)
+I (../../../../../../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\FreeRTOSConfig.h)(0x5B1612A6)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/portable.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/task.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/list.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/fsl_tickless_generic.h)(0x5B34A990)
+F (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/fsl_tickless_generic.h)(0x5B34A990)()
+F (../../../../../../middleware/usb/host/class/usb_host_hub.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\usb_host_hub.o --omf_browse sdram_debug\usb_host_hub.crf --depend sdram_debug\usb_host_hub.d)
+I (..\usb_host_config.h)(0x5B1612A6)
+I (../../../../../../middleware/usb/host/usb_host.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../../middleware/usb/osa/usb_osa.h)(0x5B34A990)
+I (../../../../../../middleware/usb/osa/usb_osa_freertos.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\FreeRTOSConfig.h)(0x5B1612A6)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/portable.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/semphr.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/queue.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/event_groups.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/timers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/task.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/list.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb_misc.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb_spec.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/usb_host_framework.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/class/usb_host_hub.h)(0x5B34A990)
+F (../../../../../../middleware/usb/host/class/usb_host_hub.h)(0x5B34A990)()
+F (../../../../../../middleware/usb/host/class/usb_host_hub_app.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\usb_host_hub_app.o --omf_browse sdram_debug\usb_host_hub_app.crf --depend sdram_debug\usb_host_hub_app.d)
+I (..\usb_host_config.h)(0x5B1612A6)
+I (../../../../../../middleware/usb/host/usb_host.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../../middleware/usb/osa/usb_osa.h)(0x5B34A990)
+I (../../../../../../middleware/usb/osa/usb_osa_freertos.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\FreeRTOSConfig.h)(0x5B1612A6)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/portable.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/semphr.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/queue.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/event_groups.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/timers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/task.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/list.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb_misc.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb_spec.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/usb_host_framework.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/class/usb_host_hub.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/usb_host_hci.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/class/usb_host_hub_app.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/usb_host_devices.h)(0x5B34A990)
+F (../../../../../../middleware/usb/host/class/usb_host_hub_app.h)(0x5B34A990)()
+F (../../../../../../middleware/usb/host/class/usb_host_cdc.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\usb_host_cdc.o --omf_browse sdram_debug\usb_host_cdc.crf --depend sdram_debug\usb_host_cdc.d)
+I (..\usb_host_config.h)(0x5B1612A6)
+I (../../../../../../middleware/usb/host/usb_host.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../../middleware/usb/osa/usb_osa.h)(0x5B34A990)
+I (../../../../../../middleware/usb/osa/usb_osa_freertos.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\FreeRTOSConfig.h)(0x5B1612A6)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/portable.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/semphr.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/queue.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/event_groups.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/timers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/task.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/list.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb_misc.h)(0x5B34A990)
+I (../../../../../../middleware/usb/include/usb_spec.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/usb_host_framework.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/class/usb_host_cdc.h)(0x5B34A990)
+I (../../../../../../middleware/usb/host/usb_host_devices.h)(0x5B34A990)
+F (../../../../../../middleware/usb/host/class/usb_host_cdc.h)(0x5B34A990)()
+F (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\system_mimxrt1052.o --omf_browse sdram_debug\system_mimxrt1052.crf --depend sdram_debug\system_mimxrt1052.d)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+F (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)()
+F (../../../../../../devices/MIMXRT1052/arm/startup_MIMXRT1052.s)(0x5B7FD23A)(--cpu Cortex-M7.fp.dp -g --apcs=interwork --pd "__MICROLIB SETA 1" -I ../../../.. -I ..-IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include--pd "__UVISION_VERSION SETA 522" --pd "CPU_MIMXRT1052DVL6B SETA 1" --pd "__STARTUP_INITIALIZE_NONCACHEDATA SETA 1"--list .\output\startup_mimxrt1052.lst -o sdram_debug\startup_mimxrt1052.o --depend sdram_debug\startup_mimxrt1052.d)
+F (../../../../../../devices/MIMXRT1052/utilities/io/fsl_io.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\fsl_io.o --omf_browse sdram_debug\fsl_io.crf --depend sdram_debug\fsl_io.d)
+I (../../../../../../devices/MIMXRT1052/utilities/io/fsl_io.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/utilities/fsl_debug_console_conf.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_lpuart.h)(0x5B34A990)
+F (../../../../../../devices/MIMXRT1052/utilities/io/fsl_io.h)(0x5B34A990)()
+F (../../../../../../devices/MIMXRT1052/utilities/log/fsl_log.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\fsl_log.o --omf_browse sdram_debug\fsl_log.crf --depend sdram_debug\fsl_log.d)
+I (../../../../../../devices/MIMXRT1052/utilities/log/fsl_log.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/utilities/fsl_debug_console_conf.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/utilities/io/fsl_io.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\FreeRTOSConfig.h)(0x5B1612A6)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/portable.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/task.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/private/list.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/semphr.h)(0x5B34A990)
+I (../../../../../../rtos/amazon-freertos/lib/include/queue.h)(0x5B34A990)
+F (../../../../../../devices/MIMXRT1052/utilities/log/fsl_log.h)(0x5B34A990)()
+F (../../../../../../devices/MIMXRT1052/utilities/str/fsl_str.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\fsl_str.o --omf_browse sdram_debug\fsl_str.crf --depend sdram_debug\fsl_str.d)
+I (G:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/utilities/str/fsl_str.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/utilities/fsl_debug_console_conf.h)(0x5B34A990)
+F (../../../../../../devices/MIMXRT1052/utilities/str/fsl_str.h)(0x5B34A990)()
+F (../../../../../../devices/MIMXRT1052/utilities/fsl_debug_console.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\fsl_debug_console.o --omf_browse sdram_debug\fsl_debug_console.crf --depend sdram_debug\fsl_debug_console.d)
+I (G:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/utilities/fsl_debug_console.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/utilities/fsl_debug_console_conf.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/utilities/log/fsl_log.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/utilities/str/fsl_str.h)(0x5B34A990)
+F (../../../../../../devices/MIMXRT1052/utilities/fsl_debug_console.h)(0x5B34A990)()
+F (../../../../../../devices/MIMXRT1052/utilities/fsl_debug_console_conf.h)(0x5B34A990)()
+F (../../../../../../devices/MIMXRT1052/utilities/fsl_assert.c)(0x5B34A990)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\fsl_assert.o --omf_browse sdram_debug\fsl_assert.crf --depend sdram_debug\fsl_assert.d)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/utilities/fsl_debug_console.h)(0x5B34A990)
+F (../../../../../../devices/MIMXRT1052/xip/fsl_flexspi_nor_boot.h)(0x5B1612A6)()
+F (../../../../../../devices/MIMXRT1052/xip/fsl_flexspi_nor_boot.c)(0x5B1612A6)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\fsl_flexspi_nor_boot.o --omf_browse sdram_debug\fsl_flexspi_nor_boot.crf --depend sdram_debug\fsl_flexspi_nor_boot.d)
+I (../../../../../../devices/MIMXRT1052/xip/fsl_flexspi_nor_boot.h)(0x5B1612A6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\board.h)(0x5B1612A6)
+I (..\clock_config.h)(0x5B1612A6)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_gpio.h)(0x5B34A990)
+F (../../../../../../devices/MIMXRT1052/xip/evkbimxrt1050_flexspi_nor_config.c)(0x5BC4593A)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\evkbimxrt1050_flexspi_nor_config.o --omf_browse sdram_debug\evkbimxrt1050_flexspi_nor_config.crf --depend sdram_debug\evkbimxrt1050_flexspi_nor_config.d)
+I (../../../../../../devices/MIMXRT1052/xip/evkbimxrt1050_flexspi_nor_config.h)(0x5B1612A6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_common.h)(0x5B34A990)
+I (G:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (G:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (G:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../devices/MIMXRT1052/fsl_device_registers.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/core_cm7.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_version.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_compiler.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x5B34A990)
+I (../../../../../../CMSIS/Include/mpu_armv7.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/system_MIMXRT1052.h)(0x5B34A990)
+I (../../../../../../devices/MIMXRT1052/MIMXRT1052_features.h)(0x5B459A25)
+I (../../../../../../devices/MIMXRT1052/drivers/fsl_clock.h)(0x5B34A990)
+F (../../../../../../devices/MIMXRT1052/xip/evkbimxrt1050_flexspi_nor_config.h)(0x5B1612A6)()
+F (../../../../../../devices/MIMXRT1052/xip/evkbimxrt1050_sdram_ini_dcd.c)(0x5BDA98A8)(--c99 -c --cpu Cortex-M7.fp.dp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I .. -I ../../../.. -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../middleware/usb -I ../../../../../../middleware/usb/osa -I ../../../../../../middleware/usb/include -I ../../../../../../middleware/usb/host -I ../../../../../../rtos/amazon-freertos/lib/include -I ../../../../../../rtos/amazon-freertos/lib/include/private -I ../../../../../../middleware/usb/phy -I ../../../../../../devices/MIMXRT1052/drivers -I ../../../../../../middleware/usb/host/class -I ../../../../../../devices/MIMXRT1052 -I ../../../../../../devices/MIMXRT1052/utilities/io -I ../../../../../../devices/MIMXRT1052/utilities/str -I ../../../../../../devices/MIMXRT1052/utilities/log -I ../../../../../../devices/MIMXRT1052/utilities -I ../../../../../../devices/MIMXRT1052/xip --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  -IF:\nxp\EasyARM-RT1052开发板光盘资料硬件参考设计\【光盘资料】EasyARM-RT1052开发板\3.示例代码\SDK_2.4.1_EasyARM-RT1052-V1_0\boards\EasyARM-RT1052-V1_0\usb_examples\usb_host_cdc\freertos\mdk\RTE\_host_cdc_freertos_sdram_debug-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0-IG:\Keil_v5\ARM\CMSIS\Include-IG:\Keil_v5\ARM\PACK\NXP\MIMXRT1052_DFP\14.0.0\Device\Include-D__UVISION_VERSION="522" -DCPU_MIMXRT1052DVL6B -DSDRAM_IS_SHAREABLE -DSKIP_SYSCLK_INIT -DCPU_MIMXRT1052DVL6B -DUSB_STACK_FREERTOS -DUSB_STACK_FREERTOS_HEAP_SIZE="32768" -DFSL_RTOS_FREE_RTOS-o sdram_debug\evkbimxrt1050_sdram_ini_dcd.o --omf_browse sdram_debug\evkbimxrt1050_sdram_ini_dcd.crf --depend sdram_debug\evkbimxrt1050_sdram_ini_dcd.d)
+I (../../../../../../devices/MIMXRT1052/xip/evkbimxrt1050_sdram_ini_dcd.h)(0x5B1612A6)
+I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+F (../../../../../../devices/MIMXRT1052/xip/evkbimxrt1050_sdram_ini_dcd.h)(0x5B1612A6)()
